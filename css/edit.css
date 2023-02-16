@@ -1,0 +1,67 @@
+/*add here for code changes*/
+
+/*Commonly Changed Items*/
+:root{
+    --backgroundColour:#D5EBF9;
+    --buttonBackgroundColor:#014598;
+    --buttonTextColor:white;
+    --textDarkBlueColor:#014598;
+    --gameTopBackground: white;
+    --backgroundColour2:#014598;
+    --scoreTextBackground:#FBCE59;
+    --borderColor2:#F25528;
+    --finalPopUpBackground:white;
+}
+
+/*GamePage*/
+.gamePage p{
+    text-align: center;
+    font-size: 30px;
+}
+
+.shelf{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.objects{
+    width: 100%;
+    display: grid;
+    padding: 10px 0px;
+    padding-bottom: 20px;
+    grid-template-columns: repeat(3,1fr);
+    background: url("../img/shelf.png") bottom no-repeat;
+    background-size: 100% ;
+    background-position: 100% 100%;
+}
+
+.objectShown{
+    width: 100%;
+    height: auto;
+}
+
+.fadeOut{
+    opacity: 0%;
+    transition: opacity 2s;
+}
+
+.fadeIn{
+    opacity: 100%;
+    transition: opacity 2s;
+}
+
+.choicesContainer{
+    width: 100%;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3,1fr);
+}
+
+.choicesContainer img{
+    width: 100%;
+    background-color: #014598;
+    border-radius: 20px;
+}
+
